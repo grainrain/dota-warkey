@@ -33,12 +33,12 @@ pip install pyinstaller
 pyinstaller --noconfirm --clean dota_warkey.spec
 ```
 
-或直接双击 `build.bat`。产物在 `dist\DotA改键精灵.exe`。
+或直接双击 `build.bat`。产物在 `dist\DotA改键.exe`。
 
 等价的一行命令：
 
 ```bash
-pyinstaller --noconfirm --onefile --windowed --uac-admin --icon logo.ico --name "DotA改键精灵" --add-data "config.json;." --add-data "logo.ico;." dota_warkey.py
+pyinstaller --noconfirm --onefile --windowed --uac-admin --icon logo.ico --name "DotA改键" --add-data "config.json;." --add-data "logo.ico;." dota_warkey.py
 ```
 
 ## 配置说明（config.json）

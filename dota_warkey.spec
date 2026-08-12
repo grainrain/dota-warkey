@@ -28,7 +28,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='DotA改键精灵',
+    name='DotA改键',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

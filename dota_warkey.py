@@ -524,7 +524,7 @@ class Engine:
             self.q.put("__ADMIN_YES__")
         else:
             self.log("本程序管理员权限：否 —— 这张图的魔兽是管理员运行，本程序也必须管理员，"
-                     "否则改键全部无效！请关掉本程序，用 DotA改键精灵.exe 启动并在UAC点“是”。")
+                     "否则改键全部无效！请关掉本程序，用 DotA改键.exe 启动并在UAC点“是”。")
             self.q.put("__ADMIN_NO__")
         msg = wintypes.MSG()
         while user32.GetMessageW(ctypes.byref(msg), None, 0, 0) > 0:
