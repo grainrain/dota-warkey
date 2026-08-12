@@ -1,0 +1,76 @@
+{
+  "window_class": "Warcraft III",
+  "war3_path": "D:\\游戏\\Warcraft3\\War3.exe",
+  "windowed": false,
+  "block_win": true,
+  "show_hpbar": true,
+  "active_profile": "默认",
+  "profiles": {
+    "默认": {
+      "skills": [
+        {
+          "trigger": "Q",
+          "target": "E"
+        },
+        {
+          "trigger": "W",
+          "target": "D"
+        },
+        {
+          "trigger": "E",
+          "target": "R"
+        },
+        {
+          "trigger": "R",
+          "target": "F"
+        },
+        {
+          "trigger": "D",
+          "target": ""
+        },
+        {
+          "trigger": "F",
+          "target": ""
+        },
+        {
+          "trigger": "",
+          "target": ""
+        },
+        {
+          "trigger": "",
+          "target": ""
+        }
+      ],
+      "items": [
+        {
+          "trigger": "1",
+          "target": "NUMPAD7"
+        },
+        {
+          "trigger": "2",
+          "target": "NUMPAD8"
+        },
+        {
+          "trigger": "3",
+          "target": "NUMPAD4"
+        },
+        {
+          "trigger": "4",
+          "target": "NUMPAD5"
+        },
+        {
+          "trigger": "Z",
+          "target": "NUMPAD1"
+        },
+        {
+          "trigger": "空格",
+          "target": "NUMPAD2"
+        }
+      ],
+      "hero": {
+        "trigger": "CAPSLOCK",
+        "target": "F1"
+      }
+    }
+  }
+}
